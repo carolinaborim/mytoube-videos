@@ -8,7 +8,7 @@ class VideoDetail extends React.Component {
     return video ? (
       <div>
         <div className="ui embed">
-          <iframe src={videoSrc + video.id.videoId} />
+          <iframe title="video-player" src={videoSrc + video.id.videoId} />
         </div>
         <div className="ui segment">
           <h4 className="ui header">{video.snippet.title}</h4>
